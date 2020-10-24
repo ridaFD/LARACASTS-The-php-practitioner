@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3758895-df6c-4c99-84dc-be23c912c1a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../The php practitioner/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../The php practitioner/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../The php practitioner/.idea/the php practitioner.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../The php practitioner/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
       <updated>1603485684569</updated>
       <workItem from="1603485685581" duration="3305000" />
       <workItem from="1603527216944" duration="187000" />
-      <workItem from="1603527818226" duration="334000" />
+      <workItem from="1603527818226" duration="1108000" />
     </task>
     <servers />
   </component>
