@@ -19,8 +19,8 @@
 <body>
 
     <ul>
-        <?php foreach ($names as $name) : ?>
-            <li><?= $name ?></li>
+        <?php foreach ($person as $feature => $key) : ?>
+            <li><strong><?= $feature ?></strong> <?= $key ?></li>
         <?php endforeach; ?>
     </ul>
 
