@@ -1,14 +1,10 @@
 <?php
 
-$person = [
-  'age' => 23,
-  'gender' => 'male',
-    'career' => 'web developer'
+$task = [
+  'title' => 'Finish homework',
+    'due' => 'today',
+    'assigned_to' => 'Rida',
+    'completed' => false
 ];
-// append KEY and VALUE to the associative array:
-$person['hobie'] = 'football';
-
-// remove KEY and it's value:
-unset($person['career']);
 
 require 'index.view.php';

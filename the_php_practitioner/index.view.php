@@ -19,9 +19,21 @@
 <body>
 
     <ul>
-        <?php foreach ($person as $feature => $key) : ?>
-            <li><strong><?= $feature ?></strong> <?= $key ?></li>
-        <?php endforeach; ?>
+        <li>
+            <strong>Name: </strong><?= $task['title']; ?>
+        </li>
+
+        <li>
+            <strong>Dut Date: </strong><?= $task['due']; ?>
+        </li>
+
+        <li>
+            <strong>Personal Responsible: </strong><?= $task['assigned_to']; ?>
+        </li>
+
+        <li>
+            <strong>Status: </strong><?= $task['completed'] ? 'completed' : 'Incomplete'; ?>
+        </li>
     </ul>
 
 </body>
