@@ -20,7 +20,7 @@
 
     <header>
         <h1>
-            <?php echo 'Hello, ' . htmlspecialchars($_GET['name']) ?>
+            <?= $greeting; ?>
         </h1>
     </header>
 
