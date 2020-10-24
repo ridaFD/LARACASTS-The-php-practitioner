@@ -19,21 +19,13 @@
 <body>
 
     <ul>
-        <li>
-            <strong>Name: </strong><?= $task['title']; ?>
-        </li>
-
-        <li>
-            <strong>Dut Date: </strong><?= $task['due']; ?>
-        </li>
-
-        <li>
-            <strong>Personal Responsible: </strong><?= $task['assigned_to']; ?>
-        </li>
-
-        <li>
-            <strong>Status: </strong><?= $task['completed'] ? 'completed' : 'Incomplete'; ?>
-        </li>
+        <?php foreach($tasks as $task) : ?>
+            <?php if ($task->isComplete()) : ?>
+                <li><strike><?= $task->description ?></strike></li>
+            <?php else : ?>
+                <li><?= $task->description ?></li>
+            <?php endif ?>
+        <?php endforeach; ?>
     </ul>
 
 </body>
