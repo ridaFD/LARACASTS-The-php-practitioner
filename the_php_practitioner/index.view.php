@@ -17,16 +17,19 @@
 
 </head>
 <body>
-
     <ul>
+<!--        --><?php //foreach($tasks as $task) : ?>
+<!--            --><?php //if ($task->isComplete()) : ?>
+<!--                <li><strike>--><?//= $task->description ?><!--</strike></li>-->
+<!--            --><?php //else : ?>
+<!--                <li>--><?//= $task->description ?><!--</li>-->
+<!--            --><?php //endif ?>
+<!--        --><?php //endforeach; ?>
+
+
         <?php foreach($tasks as $task) : ?>
-            <?php if ($task->isComplete()) : ?>
-                <li><strike><?= $task->description ?></strike></li>
-            <?php else : ?>
-                <li><?= $task->description ?></li>
-            <?php endif ?>
+            <li><?= $task->description ?></li>
         <?php endforeach; ?>
     </ul>
-
 </body>
 </html>
